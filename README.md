@@ -6,7 +6,7 @@ Retrieval-augmented generation (RAG) systems are transforming enterprise AI by d
 
 This workshop demonstrates an end-to-end solution using OPEA Chat QnA, providing participants with hands-on experience in: 
 - Ensuring data quality for retrievers.
-- Deploying models at scale on Azure VMs.
+- Deploying models at scale on Microsoft* Azure VMs.
 - Integrating pipelines to streamline workflows.
 
 This workshop focuses on leveraging OPEA for deploying scalable RAG solutions, demonstrating how these tools address critical pain points in enterprise AI.
@@ -34,8 +34,9 @@ Solution architects focused on deploying enterprise-scale AI.
 Professionals interested in RAG and its applications in knowledge-intensive domains.
 
 ## Prerequisites
-Comfortable python programming language
-Basic understanding of microservices, cloud architecture
+- Proficiency in the Python programming language.
+- Basic understanding of microservices architecture.
+- Familiarity with cloud infrastructure concepts.
 
 ## Agenda:
 - Introduction to RAG and Challenges (10 minutes)
@@ -63,10 +64,7 @@ Incorporating rerankers for improved relevance.
 
 5. Q&A and next steps (10 mins)
 
-## Conclusion
-This workshop provides a hands-on introduction to building scalable RAG systems, emphasizing data preparation and deployment optimization. Using OPEA Chat QnA, participants will learn to create robust, real-world AI pipelines that seamlessly bridge data quality and model performance on Azure cloud infrastructure.
-
-## Setup Instructions for Azure VM
+## Setup Instructions for JupyterLab on Azure VM
 
 ### Step 1: Update and Install Required Packages
 
@@ -99,3 +97,13 @@ ssh -L 9999:localhost:9999 <azureuser>@<AZURE_VM_PUBLIC_IP>
 3. Enter the password you created during the setup process to access JupyterLab.
 
 Note: To exit the virtual environment when finished, simply type deactivate
+
+### Final Notes
+
+Congratulations! You have successfully set up JupyterLab on your Azure VM and accessed it securely via SSH tunneling. You are now ready to proceed with the workshop activities.
+If you encounter any issues during the setup or while running the notebook, please reach out to the workshop facilitators for assistance.
+We hope you enjoy the workshop and gain valuable insights into building scalable RAG pipelines with OPEA ChatQnA. 
+
+## Conclusion
+This workshop provides a hands-on introduction to building scalable RAG systems, emphasizing data preparation and deployment optimization. Using OPEA Chat QnA, participants will learn to create robust, real-world AI pipelines that seamlessly bridge data quality and model performance on Azure cloud infrastructure.
+
