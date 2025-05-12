@@ -1,10 +1,10 @@
-# MS Build Workshop 2025: Streamlining Enterprise AI RAG Pipelines with OPEA ChatQnA
+# Microsoft Build 2025 Workshop: Streamlining Enterprise AI RAG Pipelines with OPEA ChatQnA
 
 ## Abstract
 
-Retrieval-augmented generation (RAG) systems are transforming enterprise AI by delivering accurate and contextually aware responses. However, RAG's success hinges on high-quality data preparation and robust deployment pipelines. This workshop focuses on OPEA Chat QnA to showcase an end-to-end workflow for building scalable RAG systems. Participants will gain hands-on experience in preparing data, configuring RAG pipelines, and integrating these tools to address real-world enterprise challenges.
+Retrieval-augmented generation (RAG) systems are transforming enterprise AI by delivering accurate and contextually aware responses. However, RAG's success hinges on high-quality data preparation and robust deployment pipelines. This workshop focuses on OPEA ChatQnA to showcase an end-to-end workflow for building scalable RAG systems. Participants will gain hands-on experience in preparing data, configuring RAG pipelines, and integrating these tools to address real-world enterprise challenges.
 
-This workshop demonstrates an end-to-end solution using OPEA Chat QnA, providing participants with hands-on experience in: 
+This workshop demonstrates an end-to-end solution using OPEA ChatQnA, providing participants with hands-on experience in: 
 - Ensuring data quality for retrievers.
 - Deploying models at scale on Microsoft* Azure VMs.
 - Integrating pipelines to streamline workflows.
@@ -37,33 +37,11 @@ Professionals interested in RAG and its applications in knowledge-intensive doma
 - Proficiency in the Python programming language.
 - Basic understanding of microservices architecture.
 - Familiarity with cloud infrastructure concepts.
-
 ## Agenda:
 - Introduction to RAG and Challenges (10 minutes)
 - Data Preparation for RAG Systems (20 minutes)
 - Building RAG Pipelines with OPEA (20 minutes)
 - Closing Discussion and Q&A (10 minutes)
-
-## Detailed Outline
-1. Introduction to RAG Concepts (10 minutes)
-Overview of RAG architecture: retrievers, generators, and rerankers.
-Use cases: enterprise search, knowledge management, and personalized recommendations.
-Challenges in RAG system deployment.
-
-2. Data Preparation for RAG (20 minutes)
-Hands-on activity: Preparing datasets.
-We will showcase processing and cleaning various PDF documents so they can be used for RAG.
-Exporting cleaned data into a vector database for querying.
-
-3. RAG Pipeline Deployment with OPEA (20 minutes)
-Building RAG pipelines with OPEA:
-Configuring retrievers with the cleaned dataset.
-Deploying open LLMs (LLama / Qwen) for generative capabilities.
-Incorporating rerankers for improved relevance.
-
-
-5. Q&A and next steps (10 mins)
-
 ## Setup Instructions for JupyterLab on Azure VM
 
 ### Step 1: Update and Install Required Packages
@@ -103,6 +81,26 @@ Note: To exit the virtual environment when finished, simply type deactivate
 Congratulations! You have successfully set up JupyterLab on your Azure VM and accessed it securely via SSH tunneling. You are now ready to proceed with the workshop activities.
 If you encounter any issues during the setup or while running the notebook, please reach out to the workshop facilitators for assistance.
 We hope you enjoy the workshop and gain valuable insights into building scalable RAG pipelines with OPEA ChatQnA. 
+
+## Detailed Outline
+1. Introduction to RAG Concepts (10 minutes)
+Overview of RAG architecture: retrievers, generators, and rerankers.
+Use cases: enterprise search, knowledge management, and personalized recommendations.
+Challenges in RAG system deployment.
+
+2. Data Preparation for RAG (20 minutes)
+Hands-on activity: Preparing datasets.
+We will showcase processing and cleaning various PDF documents so they can be used for RAG.
+Exporting cleaned data into a vector database for querying.
+
+3. RAG Pipeline Deployment with OPEA (20 minutes)
+Building RAG pipelines with OPEA:
+Configuring retrievers with the cleaned dataset.
+Deploying open LLMs (LLama / Qwen) for generative capabilities.
+Incorporating rerankers for improved relevance.
+
+
+5. Q&A and next steps (10 mins)
 
 ## Conclusion
 This workshop provides a hands-on introduction to building scalable RAG systems, emphasizing data preparation and deployment optimization. Using OPEA Chat QnA, participants will learn to create robust, real-world AI pipelines that seamlessly bridge data quality and model performance on Azure cloud infrastructure.
