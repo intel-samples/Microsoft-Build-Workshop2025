@@ -46,31 +46,32 @@ Professionals interested in RAG and its applications in knowledge-intensive doma
 
 ### Step 1: Update and Install Required Packages
 
-** Setting up JupyterLab with Password Authentication
+#### Setting up JupyterLab with Password Authentication
 1. Make the setup script executable:
    ```bash
    chmod +x setup_jupyter.sh
 
 2. Run the setup script
-./setup_jupyter.sh
+   
+   ```bash
+   ./setup_jupyter.sh
 
-3. During the setup process, you will be prompted to create a password for accessing JupyterLab.
+3.  During the setup process, you will be prompted to create a password for accessing JupyterLab.
 
 
 ### Step 2: SSH Tunneling to Access JupyterLab
-**Securely Access JupyterLab via SSH Port Forwarding
+#### Securely Access JupyterLab via SSH Port Forwarding
 
 Reverse tunneling (SSH port forwarding) is used to securely access the Jupyter notebook server running on the Azure VM from your local machine.
 
 1. Open a terminal on your local machine and run the following command:
 
-ssh -L 9999:localhost:9999 <azureuser>@<AZURE_VM_PUBLIC_IP>
+   ```bash
+   ssh -L 9999:localhost:9999 <azureuser>@<AZURE_VM_PUBLIC_IP>
 
-    - Replace `<AZURE_VM_PUBLIC_IP>` with your VM's public IP address.
-    - Replace `<azureuser>` with your VM's username.
-
-(Example: ssh -L 9999:localhost:9999 ubuntu@12.34.56.78)
-
+   - Replace `<AZURE_VM_PUBLIC_IP>` with your VM's public IP address.
+   - Replace `<azureuser>` with your VM's username.
+   
 2. Once connected, open your browser and navigate to: http://localhost:9999
 3. Enter the password you created during the setup process to access JupyterLab.
 
