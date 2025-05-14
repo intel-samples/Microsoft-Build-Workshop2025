@@ -69,8 +69,8 @@ Reverse tunneling (SSH port forwarding) is used to securely access the Jupyter n
    ```bash
    ssh -L 9999:localhost:9999 <azureuser>@<AZURE_VM_PUBLIC_IP>
 
-   - Replace `<AZURE_VM_PUBLIC_IP>` with your VM's public IP address.
-   - Replace `<azureuser>` with your VM's username.
+- Replace `<AZURE_VM_PUBLIC_IP>` with your VM's public IP address.
+- Replace `<azureuser>` with your VM's username.
    
 2. Once connected, open your browser and navigate to: http://localhost:9999
 3. Enter the password you created during the setup process to access JupyterLab.
